@@ -107,7 +107,7 @@ public slots:
 
 signals:
     /**
-     * Emited before the actual validation starts
+     * Emitted before the actual validation starts
      */
     void aboutToStart();
     void connectionResult(ConnectionValidator::Status status, const QStringList &errors);
