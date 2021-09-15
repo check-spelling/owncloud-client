@@ -1761,7 +1761,7 @@ version 2.3.3 (2017-08-29)
 * Overlay Icons: Fix potential hangs on Windows
 * SyncJournalDB: Don't use ._ as filename pattern if that does not work because of SMB storage settings (#5844)
 * SyncJournalDB: Log reason for sqlite3 opening errors
-* Notifications: Proapgate "Dismiss" button action to server (#5922)
+* Notifications: Propagate "Dismiss" button action to server (#5922)
 * Switch Linux build also to Qt 5.6.2 (#5470)
 * Stopped maintaining Qt 4 buildability
 
