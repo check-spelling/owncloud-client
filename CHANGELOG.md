@@ -2276,7 +2276,7 @@ version 1.6.0 (release 2014-05-30 )
  * Fix memory leaks
  * Respect XDG_CONFIG_HOME environment var
  * Handle empty fileids in the journal correctly
- * Add ability to compile libowncloudsync without GUI dependendy
+ * Add ability to compile libowncloudsync without GUI dependency
  * Fix SSL error with previously-expired CAs on Windows
  * Fix incorrect folder pause state after start
  * Fix a couple of actual potential crashes
