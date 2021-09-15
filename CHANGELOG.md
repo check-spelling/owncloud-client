@@ -2238,7 +2238,7 @@ version 1.6.2 (release 2014-07-28 )
  * Fix data corruption while trying to resume and the server does
    not support it.
  * HTTP Credentials: Read password from legacy place if not found.
- * Shibboleth: Fix the waiting curser that would not disapear (#1915)
+ * Shibboleth: Fix the waiting curser that would not disappear (#1915)
  * Limit memory usage to avoid mem wasting and crashes
  * Propagator: Fix crash when logging out during upload (#1957)
  * Propagator_qnam: Fix signal slot connection (#1963)
