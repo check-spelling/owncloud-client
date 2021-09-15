@@ -84,10 +84,10 @@ public:
         connect(job, &CredentialJob::finished, this, [this, job] {
             qDebug() << job->errorString() << job->error();
             if (job->data().isValid()) {
-                rgisterClientFinished(job->data().value<QVariantMap>());
+                registerClientFinished(job->data().value<QVariantMap>());
             } else {
                 qCCritical(lcOauth) << "Failed to read client id" << job->errorString();
-                rgisterClientOnline();
+                registerClientOnline();
             }
         });
     }
@@ -97,7 +97,7 @@ Q_SIGNALS:
     void errorOccured(const QString &error);
 
 private:
-    void rgisterClientOnline()
+    void registerClientOnline()
     {
         auto job = new OCC::SimpleNetworkJob(_account->sharedFromThis(), this);
         job->setAuthenticationJob(true);
@@ -106,7 +106,7 @@ private:
             QJsonParseError error;
             const auto json = QJsonDocument::fromJson(data, &error);
             if (error.error == QJsonParseError::NoError) {
-                rgisterClientFinished(json.object().toVariantMap());
+                registerClientFinished(json.object().toVariantMap());
             } else {
                 qCWarning(lcOauth) << "Failed to register the client" << error.errorString() << data;
                 Q_EMIT errorOccured(error.errorString());
@@ -120,7 +120,7 @@ private:
         job->start();
     }
 
-    void rgisterClientFinished(const QVariantMap &data)
+    void registerClientFinished(const QVariantMap &data)
     {
         {
             QString error;
@@ -136,7 +136,7 @@ private:
                                 << "expires at" << qExpireDate;
                 if (QDateTime::currentDateTimeUtc() > qExpireDate) {
                     qCDebug(lcOauth) << "Client registration expired";
-                    rgisterClientOnline();
+                    registerClientOnline();
                     return;
                 }
             }
