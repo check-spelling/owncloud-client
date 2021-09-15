@@ -176,7 +176,7 @@ private slots:
         QVERIFY(fakeFolder.syncOnce());
         QCOMPARE(aboutToRemoveAllFilesCalled, 0);
 
-        // Do some change localy
+        // Do some change locally
         fakeFolder.localModifier().appendByte("A/a1");
 
         // reset the server.
@@ -323,7 +323,7 @@ private slots:
                           << "S/");
 
         QVERIFY(fakeFolder.syncOnce());
-        QCOMPARE(fakeFolder.currentLocalState(), FileInfo {}); // all files should be one localy
+        QCOMPARE(fakeFolder.currentLocalState(), FileInfo {}); // all files should be one locally
         QCOMPARE(fakeFolder.currentRemoteState(), FileInfo::A12_B12_C12_S12()); // Server not changed
         QCOMPARE(aboutToRemoveAllFilesCalled, 0); // But we did not show the popup
     }
