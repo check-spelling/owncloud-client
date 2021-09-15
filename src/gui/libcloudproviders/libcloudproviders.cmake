@@ -12,7 +12,7 @@ if(LIBCLOUDPROVIDERS_FOUND AND PKG_CONFIG_FOUND)
 endif()
 
 # User visible config switch
-set(WITH_LIBCLOUDPROVIDERS ${LIBCLOUDPROVIDERS_POSSIBLE} CACHE BOOL "Whether to bulid with libcloudproviders")
+set(WITH_LIBCLOUDPROVIDERS ${LIBCLOUDPROVIDERS_POSSIBLE} CACHE BOOL "Whether to build with libcloudproviders")
 
 if(WITH_LIBCLOUDPROVIDERS AND NOT LIBCLOUDPROVIDERS_POSSIBLE)
     message(FATAL_ERROR "Trying to enable libcloudproviders but dependencies are missing")
