@@ -825,7 +825,7 @@ Summary
 * Change - Remove update channels from the ownCloud client: [#8127](https://github.com/owncloud/client/issues/8127)
 * Change - Display the users avatar in the activity list: [#8169](https://github.com/owncloud/client/issues/8169)
 * Change - Support for OpenID Connect: [#7509](https://github.com/owncloud/client/pull/7509)
-* Change - Add support for the TUS resumeable upload protocol: [#19](https://github.com/owncloud/product/issues/19)
+* Change - Add support for the TUS resumable upload protocol: [#19](https://github.com/owncloud/product/issues/19)
 
 Details
 -------
@@ -1090,7 +1090,7 @@ Details
 
    https://github.com/owncloud/client/pull/7509
 
-* Change - Add support for the TUS resumeable upload protocol: [#19](https://github.com/owncloud/product/issues/19)
+* Change - Add support for the TUS resumable upload protocol: [#19](https://github.com/owncloud/product/issues/19)
 
    With the support of the TUS protocol we are now able to easily and reliably upload files to ocis.
 
