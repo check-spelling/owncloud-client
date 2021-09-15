@@ -806,7 +806,7 @@ Summary
 * Change - Enabling native VFS on Windows create two shortcuts in the Explorer: [#7748](https://github.com/owncloud/client/issues/7748)
 * Change - Redesign the About dialog: [#7749](https://github.com/owncloud/client/issues/7749)
 * Change - The password dialog is hidden behind a window: [#7833](https://github.com/owncloud/client/issues/7833)
-* Change - The client uploads chunks even though the server repports lack of support: [#7862](https://github.com/owncloud/client/issues/7862)
+* Change - The client uploads chunks even though the server reports lack of support: [#7862](https://github.com/owncloud/client/issues/7862)
 * Change - Mac does not display a dock entry: [#7868](https://github.com/owncloud/client/issues/7868)
 * Change - Option to log HTTP requests and responses: [#7873](https://github.com/owncloud/client/issues/7873)
 * Change - Add button for `Log Settings` to advanced settings: [#7881](https://github.com/owncloud/client/issues/7881)
@@ -951,7 +951,7 @@ Details
 
    https://github.com/owncloud/client/issues/7833
 
-* Change - The client uploads chunks even though the server repports lack of support: [#7862](https://github.com/owncloud/client/issues/7862)
+* Change - The client uploads chunks even though the server reports lack of support: [#7862](https://github.com/owncloud/client/issues/7862)
 
    We now correctly handle the bigfilechunking capability
 
