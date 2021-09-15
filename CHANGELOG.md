@@ -2047,7 +2047,7 @@ version 1.8.2 (release 2015-06-08)
  * Win32: Allow concurrent OEM (un-)installers (#3272)
  * Win32: Make Setup/Update Mutex theme-unique (#3272)
  * HTTP: Add the branding name to the UserAgent string
- * ConnectonValidator: Always run with new credentials (#3266)
+ * ConnectionValidator: Always run with new credentials (#3266)
  * Recall Feature: Admins can trigger an upload of a file from
    client to server again (#3246)
  * Propagator: Add 'Content-Length: 0' header to MKCOL request (#3256)
