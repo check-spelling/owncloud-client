@@ -144,7 +144,7 @@ void OwncloudSetupPage::initializePage()
     if (pushButton)
         pushButton->setDefault(true);
 
-    // If url is overriden by theme, it's already set and
+    // If url is overridden by theme, it's already set and
     // we just check the server type and switch to second page
     // immediately.
     if (Theme::instance()->overrideServerUrlV2().isEmpty()) {
