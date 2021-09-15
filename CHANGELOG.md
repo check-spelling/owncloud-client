@@ -2056,7 +2056,7 @@ version 1.8.2 (release 2015-06-08)
  * Fix opening external links for some labels (#3135)
  * AccountState: Run only a single validator, allow error message
    overriding (#3236, #3153)
- * SyncJournalDB: Minor fixes and simplificatons
+ * SyncJournalDB: Minor fixes and simplifications
  * SyncEngine: Force re-read of folder Etags for upgrades from
    1.8.0 and 1.8.1
  * Propagator: Limit length of temporary file name (#2789)
