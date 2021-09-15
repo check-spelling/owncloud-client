@@ -253,7 +253,7 @@ namespace Utility {
     {
     public:
         /**
-         * NTFS permissions lookup is diabled by default for performance reasons
+         * NTFS permissions lookup is disabled by default for performance reasons
          * Enable it and disable it again once we leave the scope
          * https://doc.qt.io/Qt-5/qfileinfo.html#ntfs-permissions
          */
