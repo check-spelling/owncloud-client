@@ -34,7 +34,7 @@ const QString davUserC()
     return QStringLiteral("dav_user");
 }
 
-const QString davUserDisplyNameC()
+const QString davUserDisplayNameC()
 {
     return QStringLiteral("display-name");
 }
@@ -245,7 +245,7 @@ void AccountManager::saveAccountHelper(Account *acc, QSettings &settings, bool s
     settings.setValue(QLatin1String(versionC), maxAccountVersion);
     settings.setValue(QLatin1String(urlC), acc->_url.toString());
     settings.setValue(davUserC(), acc->_davUser);
-    settings.setValue(davUserDisplyNameC(), acc->_displayName);
+    settings.setValue(davUserDisplayNameC(), acc->_displayName);
     settings.setValue(userUUIDC(), acc->uuid());
     settings.setValue(QLatin1String(serverVersionC), acc->_serverVersion);
     if (acc->_credentials) {
@@ -315,7 +315,7 @@ AccountPtr AccountManager::loadAccountHelper(QSettings &settings)
 
     acc->_serverVersion = settings.value(QLatin1String(serverVersionC)).toString();
     acc->_davUser = settings.value(davUserC()).toString();
-    acc->_displayName = settings.value(davUserDisplyNameC()).toString();
+    acc->_displayName = settings.value(davUserDisplayNameC()).toString();
     acc->_uuid = settings.value(userUUIDC(), acc->_uuid).toUuid();
 
     // We want to only restore settings for that auth type and the user value
