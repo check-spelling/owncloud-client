@@ -1977,7 +1977,7 @@ version 2.0.2 (release 2015-10-21)
   * GUI: Change tray menu order (#3657)
   * GUI: Replace term "sign in" with "Log in" and friends.
   * SetupPage: Fix crash caused by uninitialized Account object.
-  * Use a themable WebDAV path all over.
+  * Use a themeable WebDAV path all over.
   * Units: Back to the "usual" mix units (JEDEC standard).
   * csync io: Full UNC path support on Win (#3748)
   * Tray: Don't use the tray workaround with the KDE theme (#3706, #3765)
