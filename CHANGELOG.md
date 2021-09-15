@@ -2451,7 +2451,7 @@ version 1.4.0 (release 2013-09-04 ), csync 0.90.0 required
   * Add Help item, pointing to online reference
   * Implement graphical selection of remote folders in FolderWizard
   * Allow custom ignore patterns
-  * Add an editor for ingore patterns
+  * Add an editor for ignore patterns
   * ALlow to flag certain ignore patterns as discardable
   * Ensure to ship with all valid translations
   * Progress Dialog now preserves the last syncned items across sync runs
