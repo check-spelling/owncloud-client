@@ -58,7 +58,7 @@ void SocketUploadJob::prepareTag(const AccountPtr &account)
 
         connect(propfindJob, &LsColJob::directoryListingIterated, this, [this](const QString &, const QMap<QString, QString> &data) {
             if (data[QStringLiteral("display-name")] == backupTagNameC()) {
-                _finisedTagId = data[QStringLiteral("id")].toInt();
+                _finishedTagId = data[QStringLiteral("id")].toInt();
             }
         });
         connect(propfindJob, &LsColJob::finishedWithError, this, [this] {
@@ -140,8 +140,8 @@ void SocketUploadJob::start()
                     fail(tr("Failed to set success tag"));
                 }
             });
-            OC_ASSERT(_finisedTagId > 0);
-            tagJob->prepareRequest(QByteArrayLiteral("PUT"), Utility::concatUrlPath(engine->account()->url(), QStringLiteral("remote.php/dav/systemtags-relations/files/%1/%2").arg(_backupFileId, QString::number(_finisedTagId))));
+            OC_ASSERT(_finishedTagId > 0);
+            tagJob->prepareRequest(QByteArrayLiteral("PUT"), Utility::concatUrlPath(engine->account()->url(), QStringLiteral("remote.php/dav/systemtags-relations/files/%1/%2").arg(_backupFileId, QString::number(_finishedTagId))));
             tagJob->start();
         } else {
             fail(tr("Failed to create backup: %1").arg(_errorFiles.join(", ")));
