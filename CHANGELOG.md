@@ -2552,7 +2552,7 @@ version 1.2.0 (release 2013-01-24 ), csync 0.70.2 required
   * [GUI] New platform specific icon set.
   * [App] Using cross platform QtKeychain library to store credentials crypted.
   * [App] Use cross platform notification for changes in the local file system rather than regular poll.
-  * [Fixes] Improved SSL Certificate handling and SSL fixes troughout syncing.
+  * [Fixes] Improved SSL Certificate handling and SSL fixes throughout syncing.
   * [Fixes] Fixed proxy authentication.
   * [Fixes] Allow brackets in folder name alias.
   * [Fixes] Lots of other minor fixes.
