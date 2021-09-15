@@ -133,7 +133,7 @@ public:
      *  the server to validate the connection if the last successful etag job
      *  was not so long ago.
      */
-    void tagLastSuccessfullETagRequest(const QDateTime &tp);
+    void tagLastSuccessfulETagRequest(const QDateTime &tp);
     void updateUrlDialog(const QUrl &url);
 
 public slots:
