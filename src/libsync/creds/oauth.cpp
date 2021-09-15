@@ -132,7 +132,7 @@ private:
             // 0 means it doesn't expire
             if (expireDate) {
                 const auto qExpireDate = QDateTime::fromSecsSinceEpoch(expireDate);
-                qCInfo(lcOauth) << "Client id iessued at:" << QDateTime::fromSecsSinceEpoch(data[QStringLiteral("client_id_issued_at")].value<quint64>())
+                qCInfo(lcOauth) << "Client id issued at:" << QDateTime::fromSecsSinceEpoch(data[QStringLiteral("client_id_issued_at")].value<quint64>())
                                 << "expires at" << qExpireDate;
                 if (QDateTime::currentDateTimeUtc() > qExpireDate) {
                     qCDebug(lcOauth) << "Client registration expired";
