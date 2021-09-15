@@ -13,18 +13,18 @@
  */
 
 #include "theme.h"
-#include "config.h"
 #include "common/depreaction.h"
 #include "common/utility.h"
-#include "version.h"
-#include "configfile.h"
 #include "common/vfs.h"
+#include "config.h"
+#include "configfile.h"
+#include "version.h"
 
 #include <QtCore>
 #ifndef TOKEN_AUTH_ONLY
-#include <QtGui>
-#include <QStyle>
 #include <QApplication>
+#include <QStyle>
+#include <QtGui>
 #endif
 #include <QSslSocket>
 
@@ -222,7 +222,7 @@ QIcon Theme::loadIcon(const QString &flavor, const QString &name, IconType iconT
             return cached = QIcon(png);
         }
 
-        const QList<int> sizes {16, 22, 32, 48, 64, 128, 256, 512, 1024};
+        const QList<int> sizes { 16, 22, 32, 48, 64, 128, 256, 512, 1024 };
         QString previousIcon;
         for (int size : sizes) {
             QString pixmapName = QStringLiteral("%1/%2/%3-%4.png").arg(path, flavor, name, QString::number(size));
@@ -516,7 +516,7 @@ QIcon Theme::syncStateIcon(const SyncResult &result, bool sysTray, bool sysTrayM
     case SyncResult::Error:
         Q_FALLTHROUGH();
     case SyncResult::SetupError:
-    // FIXME: Use state-problem once we have an icon.
+        // FIXME: Use state-problem once we have an icon.
         statusIcon = QStringLiteral("state-error");
     }
     if (sysTray) {
