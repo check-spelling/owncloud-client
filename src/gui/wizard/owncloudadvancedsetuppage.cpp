@@ -77,7 +77,7 @@ OwncloudAdvancedSetupPage::OwncloudAdvancedSetupPage()
     if (theme->wizardHideFolderSizeLimitCheckbox()) {
         _ui.confCheckBoxSize->hide();
         _ui.confSpinBox->hide();
-        _ui.confTraillingSizeLabel->hide();
+        _ui.confTrailingSizeLabel->hide();
     }
     _ui.lLocalIcon->setPixmap(Utility::getCoreIcon(QStringLiteral("folder-sync")).pixmap(_ui.lLocalIcon->size()));
 

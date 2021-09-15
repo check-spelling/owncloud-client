@@ -177,7 +177,7 @@
                  </widget>
                 </item>
                 <item>
-                 <widget class="QLabel" name="confTraillingSizeLabel">
+                 <widget class="QLabel" name="confTrailingSizeLabel">
                   <property name="text">
                    <string extracomment="Trailing part of &quot;Ask confirmation before syncing folder larger than&quot; ">MB</string>
                   </property>
