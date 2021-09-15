@@ -46,7 +46,7 @@ public:
 
 public Q_SLOTS:
     void asyncAuthResult(OAuth::Result, const QString &user, const QString &token,
-        const QString &reniewToken);
+        const QString &renewToken);
 
 signals:
     void connectToOCUrl(const QString &);
