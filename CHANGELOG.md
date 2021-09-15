@@ -1799,7 +1799,7 @@ version 2.3.0 (2017-03-03)
 * SyncEngine: Fix renaming of folder when file are changed (#5192)
 * Fix reconnect bug if status.php intermittently returns wrong data (#5188)
 * Improve sync scheduling (#5317)
-* Overlay icons: Improvements in correctnes
+* Overlay icons: Improvements in correctness
 * Tray menu: Only update on demand to fix Linux desktop integration glitches
 * Progress: Better time/bandwidth estimations
 * Network: Follow certain HTTP redirects (#2791)
