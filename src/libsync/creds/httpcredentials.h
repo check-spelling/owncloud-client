@@ -102,7 +102,7 @@ protected:
     DetermineAuthTypeJob::AuthType _authType = DetermineAuthTypeJob::AuthType::Unknown;
 
 private:
-    // HttpLegacyCredentials is incompelte
+    // HttpLegacyCredentials is incomplete
     QPointer<QObject> _credentialMigration;
 };
 
