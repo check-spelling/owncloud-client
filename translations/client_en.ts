@@ -4384,7 +4384,7 @@ This is a new, experimental mode. If you decide to use it, please report any iss
     </message>
     <message>
         <location filename="../src/gui/wizard/owncloudadvancedsetuppage.ui" line="472"/>
-        <source>Start a &amp;clean sync (Crreate a backup and erases the local folder!)</source>
+        <source>Start a &amp;clean sync (Create a backup and erases the local folder!)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
