@@ -1915,7 +1915,7 @@ version 2.1 (release 2015-12-03)
  * Improved reconnecting after network change/disconnect (#4167 #3969 ...)
  * Improved performance in Windows file system discovery
  * Removed libneon-based propagator. As a consequence, The client can no
-   longer provide bandwith limiting on Linux-distributions where it is
+   longer provide bandwidth limiting on Linux-distributions where it is
    using Qt < 5.4
  * Performance improvements in the logging functions
  * Ensured that local disk space problems are handled gracefully (#2939)
