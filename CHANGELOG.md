@@ -2120,7 +2120,7 @@ version 1.8.1 (release 2015-05-07)
  * AccountWizard: Fix auth error handling. #3155
  * Documentation fixes
  * Infrastructure/build fixes
- * Win32/OS X: Apply patch from OpenSSL to handle oudated intermediates gracefully #3087
+ * Win32/OS X: Apply patch from OpenSSL to handle outdated intermediates gracefully #3087
 
 version 1.8.0 (release 2015-03-17)
  * Mac OS: HIDPI support
