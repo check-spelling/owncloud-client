@@ -162,7 +162,7 @@ namespace Utility {
      * Use this to get a string that describes the timespan between the first and
      * the second timestamp in a human readable and understandable form.
      *
-     * If the second parameter is ommitted, the current time is used.
+     * If the second parameter is omitted, the current time is used.
      */
     OCSYNC_EXPORT QString timeAgoInWords(const QDateTime &dt, const QDateTime &from = QDateTime());
 
