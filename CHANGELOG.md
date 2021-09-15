@@ -2446,7 +2446,7 @@ version 1.4.0 (release 2013-09-04 ), csync 0.90.0 required
   * Introduce a sync history, persisting results across syncs
   * Move ability to switch to mono icons from a switch to a Settings option
   * Add "Launch on System Startup" GUI option
-  * Add "Show Desktop Nofications"GUI option (enabled by default)
+  * Add "Show Desktop Notifications"GUI option (enabled by default)
     top optionally disable sync notifications
   * Add Help item, pointing to online reference
   * Implement graphical selection of remote folders in FolderWizard
