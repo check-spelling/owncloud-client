@@ -35,7 +35,7 @@ public:
 
     /** @brief sets an optional postfix shown greyed out */
     void setPostfix(const QString &postfix);
-    /** @brief retrives the postfix */
+    /** @brief retrieves the postfix */
     QString postfix() const;
     /** @brief retrieves combined text() and postfix() */
     QString fullText() const;
