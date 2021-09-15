@@ -69,9 +69,9 @@ class RegisterClientJob : public QObject
 {
     Q_OBJECT
 public:
-    RegisterClientJob(Account *accout, const QUrl &registrationEndpoint, QObject *parent)
+    RegisterClientJob(Account *account, const QUrl &registrationEndpoint, QObject *parent)
         : QObject(parent)
-        , _account(accout)
+        , _account(account)
         , _registrationEndpoint(registrationEndpoint)
     {
         connect(this, &RegisterClientJob::errorOccured, this, &RegisterClientJob::deleteLater);
