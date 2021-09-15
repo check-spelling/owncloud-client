@@ -2454,7 +2454,7 @@ version 1.4.0 (release 2013-09-04 ), csync 0.90.0 required
   * Add an editor for ignore patterns
   * ALlow to flag certain ignore patterns as discardable
   * Ensure to ship with all valid translations
-  * Progress Dialog now preserves the last syncned items across sync runs
+  * Progress Dialog now preserves the last synced items across sync runs
   * Split Setup Wizard into multiple pages again
   * Implement "--logfile -" to log to stdout
   * Add preliminary support for Shibboleth authentication
