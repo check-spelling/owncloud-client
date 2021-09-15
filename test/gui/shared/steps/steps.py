@@ -621,7 +621,7 @@ def step(context, username):
 @Then('user "|any|" should be connect to the client-UI')
 def step(context, username):
     # TODO: find some way to dynamically to check if files are synced
-    # It might take some time for all files to sync and connect to ther server
+    # It might take some time for all files to sync and connect to their server
     snooze(5)
     isUserSignedIn(context, username)
 
