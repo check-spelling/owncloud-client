@@ -984,7 +984,7 @@ Details
 
 * Change - The client hides the window during the authentication process: [#7922](https://github.com/owncloud/client/pull/7922)
 
-   We changed the confusing behavioir and now minimize ownCloud instead. This ensures that the
+   We changed the confusing behavior and now minimize ownCloud instead. This ensures that the
    window stays accessible.
 
    https://github.com/owncloud/client/pull/7922
