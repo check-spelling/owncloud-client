@@ -55,7 +55,7 @@ data = json.load(f)
 failing_tests_raw = traverse_loop(data)
 
 # Remove duplicate nodes, if exists
-# This step is necessary because sometimes the data in failing_tests_raw is redundent.
+# This step is necessary because sometimes the data in failing_tests_raw is redundant.
 failing_tests = [dict(y) for y in set(tuple(x.items()) for x in failing_tests_raw)]
 
 print(json.dumps(failing_tests, indent=4, sort_keys=True))
