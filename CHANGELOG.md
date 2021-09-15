@@ -1241,7 +1241,7 @@ Details
 
 * Bugfix - Don't override cookies with old values: [#7831](https://github.com/owncloud/client/pull/7831)
 
-   We fixed a bug where a client somteimes overrode the content of the cookie jar with outdated or
+   We fixed a bug where a client sometimes overrode the content of the cookie jar with outdated or
    corrupted values
 
    https://github.com/owncloud/client/pull/7831
