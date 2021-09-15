@@ -39,7 +39,7 @@ Summary
 * Bugfix - Don't recommend non default sync option: [#8317](https://github.com/owncloud/client/issues/8317)
 * Bugfix - Limit min window size to 2/3 available: [#8366](https://github.com/owncloud/client/issues/8366)
 * Bugfix - Set up default locale correctly: [#8367](https://github.com/owncloud/client/issues/8367)
-* Bugfix - Ignore consecutive errors for a pereiode of time: [#8672](https://github.com/owncloud/client/issues/8672)
+* Bugfix - Ignore consecutive errors for a period of time: [#8672](https://github.com/owncloud/client/issues/8672)
 * Bugfix - Properly print the sync events in .owncloudsync.log: [#8729](https://github.com/owncloud/client/issues/8729)
 * Bugfix - Correctly handle file path comparison on Windows: [#8732](https://github.com/owncloud/client/issues/8732)
 * Bugfix - Locked files are not correctly synced: [#8761](https://github.com/owncloud/client/issues/8761)
@@ -133,7 +133,7 @@ Details
    https://github.com/owncloud/client/pull/8541
    https://github.com/owncloud/client/pull/8617
 
-* Bugfix - Ignore consecutive errors for a pereiode of time: [#8672](https://github.com/owncloud/client/issues/8672)
+* Bugfix - Ignore consecutive errors for a period of time: [#8672](https://github.com/owncloud/client/issues/8672)
 
    We fixed a bug where certain errors caused a sync run every 30 seconds
 
