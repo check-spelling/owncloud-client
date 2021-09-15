@@ -833,7 +833,7 @@ bool SyncJournalDb::updateErrorBlacklistTableStructure()
     SqlQuery query(_db);
     query.prepare("CREATE INDEX IF NOT EXISTS blacklist_index ON blacklist(path collate nocase);");
     if (!query.exec()) {
-        sqlFail(QStringLiteral("updateErrorBlacklistTableStructure: create index blacklit"), query);
+        sqlFail(QStringLiteral("updateErrorBlacklistTableStructure: create index blacklist"), query);
         re = false;
     }
 
