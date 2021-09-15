@@ -13,7 +13,7 @@
  */
 
 #include "theme.h"
-#include "common/depreaction.h"
+#include "common/deprecation.h"
 #include "common/utility.h"
 #include "common/vfs.h"
 #include "config.h"
