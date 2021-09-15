@@ -87,7 +87,7 @@ public:
 
     bool chunkingNg() const;
 
-    /// Wheter to use chunking
+    /// Whether to use chunking
     bool bigfilechunkingEnabled() const;
 
     const TusSupport &tusSupport() const;
