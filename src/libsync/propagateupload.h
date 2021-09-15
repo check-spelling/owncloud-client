@@ -261,7 +261,7 @@ protected:
 /**
  * @ingroup libsync
  *
- * Propagation job, impementing the old chunking agorithm
+ * Propagation job, impementing the old chunking algorithm
  *
  */
 class PropagateUploadFileV1 : public PropagateUploadFileCommon
@@ -308,7 +308,7 @@ private slots:
 /**
  * @ingroup libsync
  *
- * Propagation job, impementing the new chunking agorithm
+ * Propagation job, impementing the new chunking algorithm
  *
  */
 class PropagateUploadFileNG : public PropagateUploadFileCommon

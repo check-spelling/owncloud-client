@@ -1785,7 +1785,7 @@ version 2.3.0 (2017-03-03)
 * Allow to not sync the server's external storages by default
 * Switch Windows and OS X build to Qt 5.6.2
 * Switch to new ownCloud server WebDAV endpoint
-* Chunking NG: New file upload chunking algorithmn for ownCloud server 9.2
+* Chunking NG: New file upload chunking algorithm for ownCloud server 9.2
 * Allow to sync a folder to multiple different servers (Filename change from .csync_journal.db to _sync_$HASH.db)
 * Conflicts: Use the local mtime for the conflict file name (#5273)
 * "Sync now" menu item
