@@ -813,7 +813,7 @@ Summary
 * Change - The layout of serveral ui elements is broken: [#7920](https://github.com/owncloud/client/issues/7920)
 * Change - The client hides the window during the authentication process: [#7922](https://github.com/owncloud/client/pull/7922)
 * Change - The settings ui shows a prompt for a few seconds: [#7925](https://github.com/owncloud/client/pull/7925)
-* Change - Reorgenize Settings: [#7962](https://github.com/owncloud/client/pull/7962)
+* Change - Reorganize Settings: [#7962](https://github.com/owncloud/client/pull/7962)
 * Change - Use the checksum type specified by the server by default: [#7989](https://github.com/owncloud/client/pull/7989)
 * Change - Move "Choose what to sync" to sync everything settings: [#8018](https://github.com/owncloud/client/pull/8018)
 * Change - Enable Windows Virtual files by default: [#8019](https://github.com/owncloud/client/pull/8019)
@@ -995,7 +995,7 @@ Details
 
    https://github.com/owncloud/client/pull/7925
 
-* Change - Reorgenize Settings: [#7962](https://github.com/owncloud/client/pull/7962)
+* Change - Reorganize Settings: [#7962](https://github.com/owncloud/client/pull/7962)
 
    We rename "General" to "Settings" and move the "Network" into "Settings"
 
