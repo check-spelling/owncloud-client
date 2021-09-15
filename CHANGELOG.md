@@ -839,7 +839,7 @@ Details
 * Bugfix - Some check boxes in the sharing dialog are disabled: [#7877](https://github.com/owncloud/client/issues/7877)
 
    We fixed a bug where the servers default sharing permissions where used as limiting factor
-   instead of a defualt selection.
+   instead of a default selection.
 
    https://github.com/owncloud/client/issues/7877
 
