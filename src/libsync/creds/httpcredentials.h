@@ -38,7 +38,7 @@ namespace OCC {
 /*
    The authentication system is this way because of Shibboleth.
    There used to be two different ways to authenticate: Shibboleth and HTTP Basic Auth.
-   AbstractCredentials can be inherited from both ShibbolethCrendentials and HttpCredentials.
+   AbstractCredentials can be inherited from both ShibbolethCredentials and HttpCredentials.
 
    HttpCredentials is then split in HttpCredentials and HttpCredentialsGui.
 
@@ -70,7 +70,7 @@ public:
     QString fetchUser();
     virtual bool sslIsTrusted() { return false; }
 
-    /* If we still have a valid refresh token, try to refresh it assynchronously and emit fetched()
+    /* If we still have a valid refresh token, try to refresh it asynchronously and emit fetched()
      * otherwise return false
      */
     bool refreshAccessToken();
@@ -103,7 +103,7 @@ protected:
 
 private:
     bool refreshAccessTokenInternal(int tokenRefreshRetriesCount);
-    // HttpLegacyCredentials is incompelte
+    // HttpLegacyCredentials is incomplete
     QPointer<QObject> _credentialMigration;
 };
 
